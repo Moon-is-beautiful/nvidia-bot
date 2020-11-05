@@ -17,10 +17,10 @@ from utils.logger import log
 from utils.selenium_utils import options, enable_headless, wait_for_element
 
 AMAZON_URLS = {
-    "BASE_URL": "https://www.{domain}/",
-    "CART_URL": "https://www.{domain}/gp/aws/cart/add.html",
+    "BASE_URL": "https://{domain}/",
+    "CART_URL": "https://{domain}/gp/aws/cart/add.html",
 }
-CHECKOUT_URL = "https://www.{domain}/gp/cart/desktop/go-to-checkout.html/ref=ox_sc_proceed?partialCheckoutCart=1&isToBeGiftWrappedBefore=0&proceedToRetailCheckout=Proceed+to+checkout&proceedToCheckout=1&cartInitiateId={cart_id}"
+CHECKOUT_URL = "https://{domain}/gp/cart/desktop/go-to-checkout.html/ref=ox_sc_proceed?partialCheckoutCart=1&isToBeGiftWrappedBefore=0&proceedToRetailCheckout=Proceed+to+checkout&proceedToCheckout=1&cartInitiateId={cart_id}"
 
 AUTOBUY_CONFIG_PATH = "amazon_config.json"
 
@@ -28,6 +28,7 @@ SIGN_IN_TITLES = ["Amazon Sign In", "Amazon Sign-In", "Amazon Anmelden", "Inicia
 CAPTCHA_PAGE_TITLES = ["Robot Check"]
 HOME_PAGE_TITLES = [
     "Amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",
+    "smile.amazon.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more",
     "Amazon.ca: Low Prices – Fast Shipping – Millions of Items",
     "Amazon.co.uk: Low Prices in Electronics, Books, Sports Equipment & more",
     "Amazon.de: Low Prices in Electronics, Books, Sports Equipment & more",
@@ -39,6 +40,7 @@ HOME_PAGE_TITLES = [
 ]
 SHOPING_CART_TITLES = [
     "Amazon.com Shopping Cart",
+    "smile.mazon.com Shopping Cart",
     "Amazon.ca Shopping Cart",
     "Amazon.co.uk Shopping Basket",
     "Amazon.de Basket",
@@ -49,6 +51,7 @@ SHOPING_CART_TITLES = [
 ]
 CHECKOUT_TITLES = [
     "Amazon.com Checkout",
+    "smile.mazon.com Checkout",
     "Amazon.co.uk Checkout",
     "Place Your Order - Amazon.ca Checkout",
     "Place Your Order - Amazon.co.uk Checkout",
@@ -65,6 +68,7 @@ CHECKOUT_TITLES = [
 ]
 ORDER_COMPLETE_TITLES = [
     "Amazon.com Thanks You",
+    "smile.amazon.com Thanks You",
     "Amazon.ca Thanks You",
     "Thank you",
     "Amazon.fr Merci",
@@ -75,6 +79,7 @@ ORDER_COMPLETE_TITLES = [
 ]
 ADD_TO_CART_TITLES = [
     "Amazon.com: Please Confirm Your Action",
+    "smile.amazon.com: Please Confirm Your Action",
     "Amazon.de: Bitte bestätigen Sie Ihre Aktion",
     "Amazon.de: Please Confirm Your Action",
     "Amazon.es: confirma tu acción",
