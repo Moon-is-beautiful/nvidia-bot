@@ -40,7 +40,7 @@ HOME_PAGE_TITLES = [
 ]
 SHOPING_CART_TITLES = [
     "Amazon.com Shopping Cart",
-    "smile.mazon.com Shopping Cart",
+    "smile.amazon.com Shopping Cart",
     "Amazon.ca Shopping Cart",
     "Amazon.co.uk Shopping Basket",
     "Amazon.de Basket",
@@ -51,7 +51,7 @@ SHOPING_CART_TITLES = [
 ]
 CHECKOUT_TITLES = [
     "Amazon.com Checkout",
-    "smile.mazon.com Checkout",
+    "smile.amazon.com Checkout",
     "Amazon.co.uk Checkout",
     "Place Your Order - Amazon.ca Checkout",
     "Place Your Order - Amazon.co.uk Checkout",
